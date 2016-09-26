@@ -1,0 +1,44 @@
+h1{
+font-family: Montserrat, "Open Sans", "Helvetica Neue", Arial;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+color: #484E50;
+}
+
+#box{
+padding-top: 20px;
+text-align: center;
+}
+
+#list{
+padding-top: 20px;
+padding-bottom: 40px;
+}
+
+body{
+font-family: "Open Sans", 'Helvetica Neue', Arial;
+}
+
+.questions{
+border: 1px solid pink;
+width: 500px;
+padding: 20px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.label{
+	margin-bottom: 20px;
+}
+
+.background{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-image: url("http://cdn.now.howstuffworks.com/media-content/K2wzrPQ8-oldtree_catharinemacbride_gettyimagejpg-1920-1080.jpg");
+background-size: cover;
+opacity: .3;
+}
