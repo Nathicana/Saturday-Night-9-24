@@ -41,4 +41,20 @@ left: 0;
 background-image: url("http://cdn.now.howstuffworks.com/media-content/K2wzrPQ8-oldtree_catharinemacbride_gettyimagejpg-1920-1080.jpg");
 background-size: cover;
 opacity: .3;
+z-index: -1;
+}
+
+#answerbox{
+	border: 1px solid yellow;
+	width: 400px;
+	position: fixed;
+	top: 10;
+	right: 10;
+	background-color:beige;
+
+
+
+
+
+
 }
