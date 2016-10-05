@@ -7,6 +7,7 @@ $(document).ready(function(){
 	var wat = 0;
 	var honeybadger = 0;
 	var mushroom = 0;
+	var total = 0;
 
 
 
@@ -75,7 +76,22 @@ $(document).ready(function(){
 
 
 	function addTotalScore(){
-		$("#totalscore").html(herp + derp + wat + honeybadger + mushroom);
+		total = herp + derp + wat + honeybadger + mushroom;
+		if  (herp > 0 && derp > 0 && wat > 0 && honeybadger > 0 && mushroom > 0) {
+			
+			if (total < 18) {
+				$("#inceptionbox").removeClass("disagree").addClass("fuuu");
+			}
+
+			if (total > 18) {
+				$("#inceptionbox").removeClass("fuuu").addClass("disagree");
+			}
+		}
+		
+
+
+
+		$("#totalscore").html(total);
 	}
 
 });
